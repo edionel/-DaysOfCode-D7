@@ -1,0 +1,75 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0f7fa; /* Fondo colorido */
+}
+
+.calculadora {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #00796b; /* Color del encabezado */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.inputs label {
+    margin-right: 10px;
+}
+
+input[type="number"], input[type="text"] {
+    width: 90px; /* Ajustar longitud */
+    margin: 0 10px;
+    padding: 10px;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+
+.resultado {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.resultado label {
+    margin-right: 10px;
+}
+
+.operacion {
+    display: flex;
+    justify-content: center; /* Centrar los botones */
+    margin-top: 10px;
+}
+
+button {
+    width: 50px; /* Ancho de los botones */
+    padding: 5px;
+    margin: 0 5px; /* Separación leve entre botones */
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #004d40;
+    transform: scale(1.05);
+}
